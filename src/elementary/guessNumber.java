@@ -11,7 +11,7 @@ public class guessNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Random rand = new Random();
-        int answer = rand.nextInt(99)+1;
+        int answer = rand.nextInt(100)+1;
         System.out.println("Joshua's Guessing Game");
         System.out.println("Guess a number between 1 and 100");
         while (true) {
